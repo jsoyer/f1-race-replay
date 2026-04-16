@@ -553,18 +553,18 @@ class TrackPositionWindow(PitWallWindow):
 
         self._btn_real = QPushButton("Real Track")
         self._btn_real.setFixedHeight(24)
-        self._btn_real.setStyleSheet(_btn_active)  # default active
+        self._btn_real.setStyleSheet(_btn_inactive)  # default active
         self._btn_real.clicked.connect(lambda: self._set_view_mode("real"))
 
         self._btn_schematic = QPushButton("Circular")
         self._btn_schematic.setFixedHeight(24)
-        self._btn_schematic.setStyleSheet(_btn_inactive)
+        self._btn_schematic.setStyleSheet(_btn_active)
         self._btn_schematic.clicked.connect(lambda: self._set_view_mode("schematic"))
 
         toggle_row = QHBoxLayout()
         toggle_row.setSpacing(0)
-        toggle_row.addWidget(self._btn_real)
         toggle_row.addWidget(self._btn_schematic)
+        toggle_row.addWidget(self._btn_real)
 
         status_row.addWidget(self._lap_label)
         status_row.addStretch()
