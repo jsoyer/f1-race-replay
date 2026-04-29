@@ -23,7 +23,7 @@ A Python application for visualizing Formula 1 race telemetry and replaying race
 
 The **Live Tyre Strategy** insight window provides a real-time overview of every driver's tyre usage across the race. Accessible from the Insights Menu, it visualises stint lengths, compound changes, and pit stop events as they happen.
 
-![Tyre Strategy Window](./images/tyre-strategy-preview.png)
+![Tyre Strategy Window](./images/tyre-strategy/tyre-strategy-preview.png)
 
 ### Features
 
@@ -40,7 +40,7 @@ The **Live Tyre Strategy** insight window provides a real-time overview of every
 2. Open the **Insights Menu** (launches automatically, or press `H`)
 3. Click **Live Tyre Strategy** under the Live Telemetry section
 
-![Tyre Strategy in Insights Menu](./images/tyre-strategy-insights.png)
+![Tyre Strategy in Insights Menu](./images/tyre-strategy/f1%20insight%20live%20tyre%20strategy.png)
 
 ### Technical details
 
