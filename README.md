@@ -84,7 +84,8 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-FastF1 cache folder will be created automatically on first run. If it is not created, you can manually create a folder named `.fastf1-cache` in the project root.
+FastF1 cache folder will be created automatically on first run. If it is not created, you can manually create a folder named `.fastf1-cache` in the project root
+> **First Run Notice:** Loading a session for the first time may take noticeably longer because telemetry data must be downloaded, processed, and cached locally. Subsequent launches of the same session are significantly faster..
 
 ## Environment Setup
 
